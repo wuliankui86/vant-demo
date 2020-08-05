@@ -19,7 +19,7 @@
       <br>
       3.ipad的大屏设备上，组件初始化时仍然显示为空白。
     </p>
-    <van-calendar :default-date="defaultDate" :min-date="minDate" :max-date="maxDate" type="range" v-model="show" @confirm="show=false" />
+    <van-calendar  :min-date="minDate" :max-date="maxDate" type="range" v-model="show" @confirm="show=false" />
   </div>
 </template>
 
